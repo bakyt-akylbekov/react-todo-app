@@ -1,0 +1,66 @@
+.main {
+    background: url("../../images/bg.jpg") center/contain fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 185px 0;
+}
+
+.todo-container {
+    border: 1px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.search-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    width: 50%;
+}
+
+.add-todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-input {
+    width: 70%;
+}
+
+.todo-name.done {
+    text-decoration: line-through;
+}
+
+.todo-name.star {
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.starBtn.active {
+    color: #fff;
+    background: #ffc107;
+    border-color: #ffc107;
+}
+
+.doneBtn.active {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
